@@ -1,4 +1,24 @@
-header
- {background-color: #9B24F8;
-    color:white
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Cabeçalho {
+    background-color: #9B24F8;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0;
+}
+.Cabeçalho-lista-item{
+     display:inline-block;
+    margin: 0 16px; 
+    font-size: 24px;
+}
+   
+
+.Informações{
+    background-image:url(https://www.neipies.com/wp-content/uploads/2017/10/professor.jpg);
 }
